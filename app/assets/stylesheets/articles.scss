@@ -1,0 +1,65 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.wiki p {
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.wiki {
+  background-color: rgba(252, 201, 224, 0.199);
+  display: flex;
+  justify-content: space-between;
+  margin: auto 10px;
+  padding: 0px 20px;
+}
+a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+a:hover {
+  color: gray;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: justify;
+  align-items: center;
+}
+
+.article-title {
+  display: flex;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.list {
+  list-style: none;
+  font-size: 20px;
+  padding: 0px
+}
+
+.title a {
+  font-size: 30px;
+  color: rgb(112, 109, 109);
+  margin: 5px;
+}
+
+.title a:hover {
+  color: rgb(52, 34, 43);
+}
+
+.content {
+  font-size: 15px;
+  color:rgb(187, 184, 184);
+  margin: 5px;
+}
